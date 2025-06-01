@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.dnsSettings.managed</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.sea.fixlagdns</string>
+      <key>PayloadUUID</key>
+      <string>CAFEBABE-1234-5678-9012-34567890ABCD</string>
+      <key>PayloadDisplayName</key>
+      <string>DNS Fix Lag Pro ⚡️</string>
+      <key>PayloadDescription</key>
+      <string>DNS tối ưu giảm lag, giảm giật, tăng tốc độ mạng và độ phản hồi cho thiết bị iOS</string>
+      <key>DNSSettings</key>
+      <dict>
+        <key>ServerAddresses</key>
+        <array>
+          <string>1.1.1.1</string>   <!-- Cloudflare -->
+          <string>8.8.8.8</string>   <!-- Google DNS -->
+          <string>9.9.9.9</string>   <!-- Quad9 (an toàn, chặn phần mềm độc hại) -->
+        </array>
+      </dict>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>DNS Fix Lag Pro ⚡️</string>
+  <key>PayloadDescription</key>
+  <string>Kết hợp Cloudflare, Google và Quad9 để tối ưu tốc độ mạng, fix ping cao, giảm giật lag trong game và khi sử dụng thiết bị.</string>
+  <key>PayloadIdentifier</key>
+  <string>com.sea.config.fixlag</string>
+  <key>PayloadUUID</key>
+  <string>DEADFEED-4567-89AB-CDEF-0123456789EF</string>
+  <key>PayloadOrganization</key>
+  <string>Đỗ Quang Duy (Sea)</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
+output_path = Path("/mnt/data/DNS_Fix_Lag_Pro.mobileconfig")
+output_path.write_text(mobileconfig_content, encoding="utf-8")
+output_path.name
