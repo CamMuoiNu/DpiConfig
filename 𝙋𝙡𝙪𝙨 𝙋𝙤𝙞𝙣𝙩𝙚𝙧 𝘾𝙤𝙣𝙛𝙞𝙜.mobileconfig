@@ -5,7 +5,6 @@
 <dict>
   <key>PayloadContent</key>
   <array>
-    </dict>
     <dict>
       <key>PayloadType</key>
       <string>com.ff.sensitivityboost</string>
