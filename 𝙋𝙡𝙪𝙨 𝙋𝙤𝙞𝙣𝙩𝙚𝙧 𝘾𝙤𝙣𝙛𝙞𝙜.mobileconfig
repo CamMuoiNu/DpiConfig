@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.ff.sensitivityboost</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.ff.config.sensitivityboost</string>
+      <key>PayloadUUID</key>
+      <string>33333333-3333-3333-3333-333333333333</string>
+      <key>PayloadDisplayName</key>
+      <string>𝙋𝙡𝙪𝙨 𝙋𝙤𝙞𝙣𝙩𝙚𝙧 𝘾𝙤𝙣𝙛𝙞𝙜🐰</string>
+      <key>PayloadDescription</key>
+      <string>Đỗ Quang Duy 🐰</string>
+    </dict>
+  </array>
+  <key>PayloadOrganization</key>
+  <string>Đỗ Quang Duy (Sea)</string>
+  <key>PayloadDisplayName</key>
+  <string>𝙋𝙡𝙪𝙨 𝙋𝙤𝙞𝙣𝙩𝙚𝙧 𝘾𝙤𝙣𝙛𝙞𝙜🐰</string>
+  <key>PayloadDescription</key>
+  <string>📫Connect : dqduyios
+𝙋𝙡𝙪𝙨 𝙋𝙤𝙞𝙣𝙩𝙚𝙧 𝘾𝙤𝙣𝙛𝙞𝙜 là 1 loại DPI hỗ trợ máy nhạy hơn để kéo tâm
+Cre 𝙋𝙡𝙪𝙨 𝙋𝙤𝙞𝙣𝙩𝙚𝙧 𝘾𝙤𝙣𝙛𝙞𝙜 : Đỗ Quang Duy 🐰</string>
+  <key>PayloadIdentifier</key>
+  <string>com.ff.config.vipmenu2</string>
+  <key>PayloadUUID</key>
+  <string>44444444-4444-4444-4444-444444444444</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
+output_path = Path("/mnt/data/Menu_Vip_2.0_DQD.mobileconfig")
+output_path.write_text(mobileconfig_content, encoding="utf-8")
+output_path.name
