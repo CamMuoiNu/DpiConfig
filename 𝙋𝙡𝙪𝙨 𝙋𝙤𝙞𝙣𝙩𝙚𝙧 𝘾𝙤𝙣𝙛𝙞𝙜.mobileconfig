@@ -3,32 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>PayloadContent</key>
-  <array>
-    <dict>
-      <key>PayloadDescription</key>
-      <string>Cấu hình DNS tùy chỉnh cho Plus Pointer Config</string>
-      <key>PayloadDisplayName</key>
-      <string>DNS Settings</string>
-      <key>PayloadIdentifier</key>
-      <string>com.pluspointer.dns</string>
-      <key>PayloadOrganization</key>
-      <string>Plus Pointer Config</string>
-      <key>PayloadType</key>
-      <string>com.apple.dnsSettings.managed</string>
-      <key>PayloadUUID</key>
-      <string>11111111-2222-3333-4444-555555555555</string>
-      <key>PayloadVersion</key>
-      <integer>1</integer>
-      <key>DNSSettings</key>
-      <dict>
-        <key>ServerAddresses</key>
-        <array>
-          <string>1.1.1.1</string>
-          <string>8.8.8.8</string>
-        </array>
-      </dict>
-    </dict>
-  </array>
+  <array/>
   <key>PayloadDisplayName</key>
   <string>Plus Pointer Config 🐰</string>
   <key>PayloadIdentifier</key>
@@ -38,6 +13,12 @@
   <key>PayloadType</key>
   <string>Configuration</string>
   <key>PayloadUUID</key>
-  <string>aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee</string>
+  <string>11111111-2222-3333-4444-555555555555</string>
   <key>PayloadVersion</key>
-  <integer>1</intege
+  <integer>1</integer>
+  <key>PayloadDescription</key>
+  <string>Plus Pointer Config là 1 loại DPI hỗ trợ máy nhạy hơn để kéo tâm.&#10;Cre Plus Pointer Config : Đỗ Quang Duy 🐰</string>
+  <key>PayloadOrganization</key>
+  <string>Đỗ Quang Duy 🐰</string>
+</dict>
+</plist>
