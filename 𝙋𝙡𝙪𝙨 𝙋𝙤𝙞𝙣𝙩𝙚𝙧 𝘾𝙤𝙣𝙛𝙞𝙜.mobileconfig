@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
+<plist version="1.0"<dict>
+  <key>PayloadType</key>
+  <string>com.apple.dnsSettings.managed</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadIdentifier</key>
+  <string>com.ff.config.dns.1111</string>
+  <key>PayloadUUID</key>
+  <string>55555555-5555-5555-5555-555555555555</string>
+  <key>PayloadDisplayName</key>
+  <string>𝙋𝙡𝙪𝙨 𝙋𝙤𝙞𝙣𝙩𝙚𝙧 𝘾𝙤𝙣𝙛𝙞𝙜</string>
+  <key>DNSSettings</key>
+  <dict>
+    <key>ServerAddresses</key>
+    <array>
+      <string>1.1.1.1</string>
+    </array>
+  </dict>
+</dict>
 <dict>
   <key>PayloadContent</key>
   <array>
