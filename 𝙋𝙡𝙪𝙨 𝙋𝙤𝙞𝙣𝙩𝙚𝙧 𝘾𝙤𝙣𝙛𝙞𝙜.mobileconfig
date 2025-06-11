@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0"
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.dnsSettings.managed</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.ff.config.dnssettings</string>
+      <key>PayloadUUID</key>
+      <string>55555555-5555-5555-5555-555555555555</string>
+      <key>PayloadDisplayName</key>
+      <string>𝙋𝙡𝙪𝙨 𝙋𝙤𝙞𝙣𝙩𝙚𝙧 𝘾𝙤𝙣𝙛𝙞𝙜🐰</string>
+      <key>DNSSettings</key>
+      <dict>
+        <key>DNS</key>
+        <array>
+          <string>1.1.1.1</string>
+        </array>
+      </dict>
     </dict>
   </array>
   <key>PayloadOrganization</key>
@@ -10,18 +31,15 @@
   <string>𝙋𝙡𝙪𝙨 𝙋𝙤𝙞𝙣𝙩𝙚𝙧 𝘾𝙤𝙣𝙛𝙞𝙜🐰</string>
   <key>PayloadDescription</key>
   <string>📫Connect : dqduyios
-𝙋𝙡𝙪𝙨 𝙋𝙤𝙞𝙣𝙩𝙚𝙧 𝘾𝙤𝙣𝙛𝙞𝙜 là 1 loại DPI hỗ trợ máy nhạy hơn để kéo tâm
-Cre 𝙋𝙡𝙪𝙨 𝙋𝙤𝙞𝙣𝙩𝙚𝙧 𝘾𝙤𝙣𝙛𝙞𝙜 : Đỗ Quang Duy 🐰</string>
+Plus Pointer Config là 1 loại DPI hỗ trợ máy nhạy hơn để kéo tâm
+Cre Plus Pointer Config : Đỗ Quang Duy 🐰</string>
   <key>PayloadIdentifier</key>
-  <string>com.ff.config.vipmenu2</string>
+  <string>com.ff.config.pointer</string>
   <key>PayloadUUID</key>
-  <string>44444444-4444-4444-4444-444444444444</string>
+  <string>66666666-6666-6666-6666-666666666666</string>
   <key>PayloadType</key>
   <string>Configuration</string>
   <key>PayloadVersion</key>
   <integer>1</integer>
 </dict>
 </plist>
-output_path = Path("/mnt/data/Menu_Vip_2.0_DQD.mobileconfig")
-output_path.write_text(mobileconfig_content, encoding="utf-8")
-output_path.name
