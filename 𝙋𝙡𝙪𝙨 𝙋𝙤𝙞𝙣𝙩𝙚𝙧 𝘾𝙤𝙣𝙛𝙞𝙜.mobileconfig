@@ -2,40 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0"
-<dict>
-  <key>PayloadType</key>
-  <string>com.apple.dnsSettings.managed</string>
-  <key>PayloadVersion</key>
-  <integer>1</integer>
-  <key>PayloadIdentifier</key>
-  <string>com.ff.config.dns.1111</string>
-  <key>PayloadUUID</key>
-  <string>55555555-5555-5555-5555-555555555555</string>
-  <key>PayloadDisplayName</key>
-  <string>𝙋𝙡𝙪𝙨 𝙋𝙤𝙞𝙣𝙩𝙚𝙧 𝘾𝙤𝙣𝙛𝙞𝙜</string>
-  <key>DNSSettings</key>
-  <dict>
-    <key>ServerAddresses</key>
-    <array>
-      <string>1.1.1.1</string>
-    </array>
-  </dict>
-<dict>
-  <key>PayloadContent</key>
-  <array>
-    <dict>
-      <key>PayloadType</key>
-      <string>com.ff.sensitivityboost</string>
-      <key>PayloadVersion</key>
-      <integer>1</integer>
-      <key>PayloadIdentifier</key>
-      <string>com.ff.config.sensitivityboost</string>
-      <key>PayloadUUID</key>
-      <string>33333333-3333-3333-3333-333333333333</string>
-      <key>PayloadDisplayName</key>
-      <string>𝙋𝙡𝙪𝙨 𝙋𝙤𝙞𝙣𝙩𝙚𝙧 𝘾𝙤𝙣𝙛𝙞𝙜🐰</string>
-      <key>PayloadDescription</key>
-      <string>Đỗ Quang Duy 🐰</string>
     </dict>
   </array>
   <key>PayloadOrganization</key>
