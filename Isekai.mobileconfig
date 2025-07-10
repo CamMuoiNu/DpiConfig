@@ -11,7 +11,7 @@
       <key>PayloadVersion</key>
       <integer>1</integer>
       <key>PayloadIdentifier</key>
-      <string>com.rukaio.configuration.sensitivity</string>
+<string>com.rukaio.configuration.sensitivity</string>
       <key>PayloadUUID</key>
       <string>22334455-6677-8899-AABB-CCDDEEFF0011</string>
       <key>PayloadDisplayName</key>
@@ -43,7 +43,7 @@
       <key>PayloadVersion</key>
       <integer>1</integer>
       <key>PayloadIdentifier</key>
-      <string>com.rukaio.configuration.headlock</string>
+    <string>com.rukaio.configuration.headlock</string>
       <key>PayloadUUID</key>
       <string>44556677-8899-AABB-CCDD-EEFF00112233</string>
       <key>PayloadDisplayName</key>
