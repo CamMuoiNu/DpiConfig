@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+    "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.rukaio.sensitivity</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.isekai.configuration.sensitivity</string>
+      <key>PayloadUUID</key>
+      <string>22334455-6677-8899-AABB-CCDDEEFF0011</string>
+      <key>PayloadDisplayName</key>
+      </string>Super Config 3M5 ISEKAI ✈️
+      <key>PayloadDescription</key>
+      <string>Do Quang Duy (Isekai)</string>
+      <key>PayloadEnabled</key>
+      <true/>
+    </dict>
+  </array>
+  <key>PayloadOrganization</key>
+  <string>Do Quang Duy (Isekai)</string>
+  <key>PayloadDisplayName</key>
+  <string>DoQuangDuy-Isekai</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadUUID</key>
+  <string>11223344-5566-7788-99AA-BBCCDDEEFF00</string>
+  <key>PayloadIdentifier</key>
+  <string>com.isekai.configuration.next</string>
+  <key>PayloadDescription</key>
+  <string>Configuration profile by Isekai</string>
+</dict>
+</plist>
