@@ -11,27 +11,60 @@
       <key>PayloadVersion</key>
       <integer>1</integer>
       <key>PayloadIdentifier</key>
-      <string>com.isekai.configuration.sensitivity</string>
+      <string>com.rukaio.configuration.sensitivity</string>
       <key>PayloadUUID</key>
       <string>22334455-6677-8899-AABB-CCDDEEFF0011</string>
       <key>PayloadDisplayName</key>
-      </string>Super Config 3M5 ISEKAI ✈️
+      <string>Sensitivity ✈️</string>
       <key>PayloadDescription</key>
-      <string>Do Quang Duy (Isekai)</string>
+      <string>Nguyen Binh Phuong (Rukaio)</string>
       <key>PayloadEnabled</key>
+      <true/>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.rukaio.aimlock</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.rukaio.configuration.aimlock</string>
+      <key>PayloadUUID</key>
+      <string>33445566-7788-99AA-BBCC-DDEEFF001122</string>
+      <key>PayloadDisplayName</key>
+      <string>Aimlock 🥷🏻</string>
+      <key>PayloadDescription</key>
+      <string>Nguyen Binh Phuong (Rukaio)</string>
+      <key>PayloadEnabled</key>
+      <true/>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.rukaio.headlock</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.rukaio.configuration.headlock</string>
+      <key>PayloadUUID</key>
+      <string>44556677-8899-AABB-CCDD-EEFF00112233</string>
+      <key>PayloadDisplayName</key>
+      <string>HeadLock ⚡️</string>
+      <key>PayloadDescription</key>
+      <string>Nguyen Binh Phuong (Rukaio)</string>
+      <key>PayloadEnabled</key>
+      <true/>
     </dict>
   </array>
   <key>PayloadOrganization</key>
-  <string>Do Quang Duy (Isekai)</string>
+  <string>Nguyen Binh Phuong (Rukaio)</string>
   <key>PayloadDisplayName</key>
-  <string>DoQuangDuy-Isekai</string>
+  <string>NEXT CONFIGURATION-RUKAIO</string>
   <key>PayloadVersion</key>
   <integer>1</integer>
   <key>PayloadUUID</key>
   <string>11223344-5566-7788-99AA-BBCCDDEEFF00</string>
   <key>PayloadIdentifier</key>
-  <string>com.isekai.configuration.next</string>
+  <string>com.rukaio.configuration.next</string>
   <key>PayloadDescription</key>
-  <string>Configuration profile by Isekai</string>
+  <string>Configuration profile by Rukaio</string>
 </dict>
 </plist>
